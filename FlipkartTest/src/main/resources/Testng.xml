@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Flipkart application test Automation" thread-count="3" >
+
+<listeners>
+<listener class-name="com.qa.ExtentReportListner.ExtentReportListnerrrr"/>
+</listeners>
+<test name="Flipkart Test Cases">
+
+
+<!-- this is sainity testing   -->
+<classes>
+
+<class name="com.flip.qa.Testcases.LoginPageTest"></class>
+
+</classes>
+</test>
+</suite>
