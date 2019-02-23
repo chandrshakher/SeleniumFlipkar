@@ -20,6 +20,7 @@ public class TestBase {
 	
 	 static EventFiringWebDriver  event_driver;
 	 private static int a=10;
+	 private static int b=20;
 	 static WebEventListner event_lisner;
 	public TestBase(){ 
 		 try {
