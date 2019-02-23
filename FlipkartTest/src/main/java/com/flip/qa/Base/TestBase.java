@@ -19,6 +19,7 @@ public class TestBase {
 	public  static Properties prop;
 	
 	 static EventFiringWebDriver  event_driver;
+	 private static int a=10;
 	 static WebEventListner event_lisner;
 	public TestBase(){ 
 		 try {
