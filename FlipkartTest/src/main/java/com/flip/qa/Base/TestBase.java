@@ -17,6 +17,7 @@ import com.flip.qa.Util.WebEventListner;
 public class TestBase {
 	
 	public static WebDriver driver;
+	public static WebDriver driver1;
 	public  static Properties prop;
 	  
 	 static EventFiringWebDriver  event_driver;
