@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.flip.qa.Util.Testutil;
@@ -17,12 +18,12 @@ public class TestBase {
 	
 	public static WebDriver driver;
 	public  static Properties prop;
-	
+	  
 	 static EventFiringWebDriver  event_driver;
-	 private static int a=10;
-	 private static int b=20;
+	
 	 static WebEventListner event_lisner;
 	public TestBase(){ 
+		
 		 try {
 			 prop=new Properties();
 			FileInputStream fs=new FileInputStream("E://Yadav Selenium//CSYadavProjectwebdrive//FlipkartTest//src//main//java//com//flip//qa//config//config.properties");

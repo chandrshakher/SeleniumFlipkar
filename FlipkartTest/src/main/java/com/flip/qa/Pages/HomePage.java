@@ -8,16 +8,15 @@ import org.openqa.selenium.support.How;
 import com.flip.qa.Base.TestBase;
 
 public class HomePage extends TestBase{
-	
 	@FindBy(how=How.XPATH, using ="//div[contains(@class,'_1jA3uo')]//div[@class='_1jcwFN _3dmQRh']//div[@class='_2aUbKa']") WebElement conatc_number;
 	@FindBy(how=How.XPATH, using ="//div[contains(@class,'_1jA3uo')]//div[@class='_1jcwFN _3dmQRh']//div[@class='_2aUbKa']") WebElement conatctlink;
 	@FindBy(how=How.XPATH, using ="//div[contains(@class,'_1jA3uo')]//div[@class='_1jcwFN _3dmQRh']//div[@class='_2aUbKa']") WebElement dellink;
 	@FindBy(how=How.XPATH, using="//input[@class='_2zrpKA _3v41xv']") public   WebElement conatctLink;
 
 
-public void Homepage(){
+/*public void Homepage(){
 	
-}
+}*/
 public void verfiyCurrentuser(){
 	
 }
@@ -25,7 +24,7 @@ public ConatctPage clickonConatacLink(){
 	conatctlink.click();
 	return new ConatctPage();
 }
-public  DealPage clickOnDealPage(){
+public  DealPage clickOnDealPage(String dsjd){
 	dellink.click();
 	return new DealPage();
 }
