@@ -47,6 +47,7 @@ public class LoginPageTest extends TestBase {
 			  Assert.assertTrue(image);*/
 			// verify username and password. return home page
 			loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		      
 			
 			
 		}

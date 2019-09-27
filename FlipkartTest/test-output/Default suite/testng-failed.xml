@@ -5,7 +5,6 @@
     <classes>
       <class name="com.flip.qa.Testcases.LoginPageTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
           <include name="loginTest"/>
         </methods>
