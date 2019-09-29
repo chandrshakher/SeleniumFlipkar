@@ -18,6 +18,7 @@ public class TestBase {
 	
 	public static WebDriver driver;
 	public static int x=0;
+	public static int gittesting=0;
 	public  static Properties prop;
 	  
 	 static EventFiringWebDriver  event_driver;
